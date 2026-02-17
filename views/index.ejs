@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Cocktail Explorer</title>
+    <title>Cocktail Explorer</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <h1>Home Page</h1>
+
+    <h1>Cocktail Explorer 🍸</h1>
+
+    <form action="/search" method="GET">
+        <input 
+            type="text" 
+            name="name" 
+            placeholder="Enter cocktail name..." 
+            required
+        >
+        <button type="submit">Search</button>
+    </form>
+
+    <br>
+
+    <a href="/random">
+        <button type="button">Get Random Cocktail</button>
+    </a>
+
 </body>
 </html>
